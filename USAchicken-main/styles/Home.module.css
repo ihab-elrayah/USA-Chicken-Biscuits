@@ -1,0 +1,111 @@
+/* Add some css for the pizza list */
+.pizzaList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+  
+  .pizzaItem {
+    position: relative;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .pizzaItem::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    bottom: -10px;
+    width: 10px;
+  }
+  
+  /* Alternate the position of the pseudo-element using nth-child */
+  .pizzaItem:nth-child(odd)::before {
+    left: -10px;
+  }
+  
+  .pizzaItem:nth-child(even)::before {
+    right: -10px;
+  }
+  
+  /* Add some cool features using linear-gradient and transform */
+  .pizzaItem:hover {
+    transform: scale(1.1);
+  } /* Add a hover effect to the pizza item */
+  
+  /* Add a closing bracket for the pizzaItem class */
+
+ /* Import some cool fonts from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700&family=Source+Sans+Pro:wght@300;400;600&display=swap');
+
+/* Style the paragraph and title and the words on top with cool fonts and sizes */
+.paragraph {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 40px auto;
+  max-width: 800px;
+}
+
+.paragraph1 {
+  font-weight: 600;
+  color: #f00;
+}
+
+.paragraph2 {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+}
+
+.paragraph3 {
+  font-weight: 300;
+}
+
+.top{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  font-size: 48px;
+  text-align: center;
+}
+
+/* Add some css for the content, words, and pictures */
+.content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  /* Use grid-template-areas to create a grid layout for the content */
+  grid-template-areas: 
+    "words picture2"
+    "picture1 picture1";
+}
+
+.words {
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  grid-gap: 20px;
+  /* Use text-align property to align the text to the left */
+  text-align: left;
+  /* Use grid-area property to assign an area for the words */
+  grid-area: words;
+}
+
+.pictures {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Use grid-area property to assign an area for each picture */
+.picture1 {
+  grid-area: picture1;
+}
+
+.picture2 {
+  grid-area: picture2;
+}
