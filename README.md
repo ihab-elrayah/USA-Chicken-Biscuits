@@ -1,4 +1,4 @@
-# USA Chicken Biscuits 🍗
+# USA Chicken & Biscuits 🍗
 
 Welcome to the USA Chicken & Biscuit, where New Hampshire's culinary gem meets digital innovation. This project, a tribute to my favorite local Restaurant, replicates their full menu for an immersive, interactive ordering experience. Dive into a world where ordering delicious meals, customizing your dishes, and enjoying sign-up bonuses is just a click away.
 
