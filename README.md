@@ -13,7 +13,7 @@ Welcome to the USA Chicken & Biscuit, where New Hampshire's culinary gem meets d
 - **Java**: Robust backend development
 - **Next.js**: For a dynamic, responsive user interface.
 - **MongoBD**: Flexible, scalable database for storing event data.
-- **PayPal**: Payment Integration for Seamless transactions.
+- **PayPal**: Payment Integration for Seamless transactions. 
 
 
 ## 🌟 Features
