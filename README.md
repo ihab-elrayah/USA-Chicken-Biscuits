@@ -2,7 +2,7 @@
 
 Welcome to the USA Chicken & Biscuit, where New Hampshire's culinary gem meets digital innovation. This project, a tribute to my favorite local Restaurant, replicates their full menu for an immersive, interactive ordering experience. Dive into a world where ordering delicious meals, customizing your dishes, and enjoying sign-up bonuses is just a click away.
  
-🌐 **Website**: https://usa-chicken.vercel.app/ 
+🌐 **Website**: https://usa-chicken.vercel.app/  
 
 
 ![IMG_1230](https://github.com/ihab-elrayah/USA-Chicken-Biscuits/assets/127975319/f57324b2-4f41-4242-a156-c18ee5b73e7d)
